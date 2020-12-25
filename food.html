@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="food.css">
+</head>
+
+<body>
+    <div class="Header container-fluid ml-4">
+        <div class="row">
+            <div class="col-6">
+                <a class="flex-column" href="#"><img src="unnamed.png" height="50" width="150"></a>
+            </div>
+            <div class="col-6">
+                <ul style="list-style-type:none;" class="d-flex justify-content-end mt-2">
+                    <b><a href="#">
+                            <li>Home</li>
+                        </a></b>
+                    <b><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
+                            <li>Login/Register</li>
+                        </a></b>
+                    <b><a href="#" onclick="myFunction()">
+                            <li>DarkMode</li>
+                        </a></b>
+                    <b><a href="#">
+                            <li>Logout</li>
+                        </a></b>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="Header1 container-fluid mt-3">
+        <div id="carouselExampleIndicators" class="carousel slide h-100" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner h-100">
+                <div class="carousel-item active">
+                    <img class="h-125 w-100" src="81tkz6rdz9L.jpg" alt="First slide">
+                    <div class="carousel-caption h-75 text-center">
+                        <h5 class="text-center text-danger mb-3">Food app</h5>
+                        <b class="text-center text-danger">
+                            <h1>Why stay hungry when</h1>
+                        </b>
+                        <b class="text-center text-danger">
+                            <h1>you can order from Bella Onojie</h1>
+                        </b>
+                        <span class="text-center text-secondary">Dowload the bella onoje's food app now on</span><br>
+                        <button type="button" class="btn btn-primary mt-4">Playstore</button>
+                        <button type="button" class="btn btn-success mt-4 ml-3">App store</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img width="100%" height="100%" src="81tkz6rdz9L.jpg" alt="Second slide">
+                    <div class="carousel-caption h-75 text-center">
+                        <h5 class="text-center text-danger mb-3">Food app</h5>
+                        <b class="text-center text-danger">
+                            <h1>Why stay hungry when</h1>
+                        </b>
+                        <b class="text-center text-danger">
+                            <h1>you can order from Bella Onojie</h1>
+                        </b>
+                        <span class="text-center text-secondary">Dowload the bella onoje's food app now on</span><br>
+                        <button type="button" class="btn btn-primary mt-4">Playstore</button>
+                        <button type="button" class="btn btn-success mt-4 ml-3">App store</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img width="100%" height="100%" src="81tkz6rdz9L.jpg" alt="Third slide">
+                    <div class="carousel-caption h-75 text-center">
+                        <h5 class="text-center text-danger mb-3">Food app</h5>
+                        <b class="text-center text-danger">
+                            <h1>Why stay hungry when</h1>
+                        </b>
+                        <b class="text-center text-danger">
+                            <h1>you can order from Bella Onojie</h1>
+                        </b>
+                        <span class="text-center text-secondary">Dowload the bella onoje's food app now on</span><br>
+                        <button type="button" class="btn btn-primary mt-4">Playstore</button>
+                        <button type="button" class="btn btn-success mt-4 ml-3">App store</button>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="section-title Body1 container mt-5">
+        <b></b>
+        <h5 class="text-center mt-4">How the app works</h5>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6">
+                    <img class="h-100 w-75" src="images.jpg">
+                </div>
+                <div class="col-6 text-left">
+                    <br>
+                    <br>
+                    <br><br><br>
+                    <h5 class="text-danger">Create an account</h5>
+                    <h3>Create/login to an existing account to get started</h3>
+                    <p>An account is created with your email and a desired password</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6 text-left">
+                    <br>
+                    <br>
+                    <br><br><br>
+                    <h5 class="text-danger">Explore varieties</h5>
+                    <h3>Shop for your favorites meal as e dey hot.</h3>
+                    <p>Shop for your favorite meals or drinks and enjoy while doing it.</p>
+                </div>
+                <div class="col-6">
+                    <img class="h-100 w-75" src="images.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6">
+                    <img class="h-100 w-75" src="images.jpg">
+                </div>
+                <div class="col-6 text-left">
+                    <br>
+                    <br>
+                    <br><br><br>
+                    <h5 class="text-danger">Checkout</h5>
+                    <h3>When you done check out and get it delivered</h3>
+                    <p>When you done check out and get it delivered with ease.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="Body2 container-fluid">
+        <img src="fda1.png" width="100%" height="100%">
+        <div class="text-center">
+            <br><br><br>
+            <h3 class="fa-3x">Dowload the app now.</h3>
+            <h5 class="fa-2x text-warning">Available on your favorite store. Star your premium experience now</h5>
+            <button type="button" class="btn btn-primary mt-4">Playstore</button>
+            <button type="button" class="btn btn-success mt-4 ml-3">App store</button>
+        </div>
+    </div>
+    <div class="Footer container-fluid mt-5">
+        <div class="row">
+            <div class="col-4">
+                <br>
+                <a class="flex-column ml-5" href="#"><img src="unnamed.png" height="60" width="150"></a>
+            </div>
+            <div class="col-4 mt-1">
+                <i class="fab fa-twitter-square fa-3x mt-4 ml-2"></i>
+                <i class="fab fa-facebook-square fa-3x mt-4 ml-2"></i>
+                <i class="fab fa-instagram fa-3x mt-4 ml-2"></i>
+                
+            </div>
+            <div class="col-4 mt-3">
+                <br>
+                Copyright 2020 Bella Onoje.com
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-6 login-modal">                          
+                                <div class="form-group">
+                                    <div>
+                                        <h5 class="user-name login-labels"><i class="fa fa-user" aria-hidden="true"></i>
+                                            User Name</h5>
+                                        <input class="w-100" type="text" id="username">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <h5 class="user-password login-labels"><i class="fa fa-lock" aria-hidden="true"></i>
+                                        Password</h5>
+                                    <input class="w-100" type="password" id="password">
+                                </div>
+                                <div class="form-group">
+                                    <div class="login-btn text-center">
+                                        <button type="submit" class="btn btn-warning h-100 mt-4">Login</button>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-6 border-dark border-left">
+            <form>
+            <label class="user-name login-labels"><i class="fa fa-user" aria-hidden="true"></i> User Name</label>
+            <input class="w-100" type="text" id="username" required>
+            <span id="errorname"></span><br>
+            <label class="user-password login-labels"><i class="fa fa-lock" aria-hidden="true"></i> Password</label>
+            <input class="w-100" type="password" id="password" required>
+            <span id="errorpass"></span><br>
+            <label class="user-password login-labels"><i class="fa fa-lock" aria-hidden="true"></i> Confirm Password</label>
+            <input class="w-100" type="password" id="confirmps" required>
+            <span id="errorconfirm"></span><br>
+            <label><i class="fas fa-phone" aria-hidden="true"></i> Phone</label>
+            <input class="w-100" type="number" id="phone" required>
+            <span id="errorphone"></span><br>
+            <label><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Address</label>
+            <input class="w-100" type="text" id="address">
+            <span id="erroraddress"></span><br>
+            <div class="text-center">
+            <button class="btn btn-warning mt-3 mb-3 w-25" onclick="register()" type="submit">Register</button>
+                </div>
+            </form>
+            </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div>
+        </div>
+    </div>
+<script src="food.js"></script>
+</body>
+
+</html>
